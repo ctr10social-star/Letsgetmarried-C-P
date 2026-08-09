@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chirag &amp; Priya — Wedding Invitation</title>
+<meta name="description" content="Join us to celebrate the wedding of Chirag and Priya on December 4, 2026, and the Reception on December 6, 2026.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Chirag &amp; Priya">
+<meta property="og:description" content="Muhurtam · December 4, 2026 · Thiruttani Murugan Temple. Reception · December 6, 2026 · Shree Swargha Heritage Wedding Venue.">
+<meta property="og:image" content="assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Chirag &amp; Priya">
+<meta name="twitter:image" content="assets/og.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&amp;family=EB+Garamond:ital,wght@0,400;0,600;1,400&amp;family=Mukta:wght@400;500;600&amp;display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+<link rel="preload" as="image" href="assets/temple-hero.webp"
+      imagesrcset="assets/temple-hero-900.webp 900w, assets/temple-hero.webp 1400w"
+      imagesizes="100vw">
+<script>document.documentElement.classList.replace('no-js','js');</script>
+</head>
+<body>
+
+<a class="skip-link" href="#event-details">Skip to event details</a>
+
+<div id="sky-backdrop" aria-hidden="true"></div>
+
+<div class="controls">
+  <button id="mute-toggle" class="pill-btn" type="button" aria-pressed="true">
+    <span id="mute-icon" aria-hidden="true">&#128264;</span>
+    <span id="mute-label">Sound off</span>
+  </button>
+  <button id="motion-toggle" class="pill-btn" type="button" aria-pressed="false">
+    <span aria-hidden="true">&#9881;</span>
+    <span>Reduce motion</span>
+  </button>
+</div>
+
+<div class="progress-rail" role="presentation" aria-hidden="true"></div>
+
+<audio id="bg-audio" loop preload="none" src="assets/wedding-music.mp3"></audio>
+
+<main>
+
+<!-- ================= SCENE 1 — SEAL INTRO ================= -->
+<section id="scene-seal" class="scene" aria-label="Wedding invitation">
+  <div class="stars" aria-hidden="true">
+    <svg width="100%" height="100%" viewBox="0 0 400 800" preserveAspectRatio="xMidYMid slice">
+      <g fill="var(--stucco)">
+        <circle class="star" cx="30" cy="60" r="1.6" style="animation-delay:0s"/>
+        <circle class="star" cx="90" cy="140" r="1.2" style="animation-delay:0.6s"/>
+        <circle class="star" cx="150" cy="40" r="1.8" style="animation-delay:1.2s"/>
+        <circle class="star" cx="210" cy="180" r="1.3" style="animation-delay:0.3s"/>
+        <circle class="star" cx="260" cy="70" r="1.5" style="animation-delay:1.6s"/>
+        <circle class="star" cx="320" cy="160" r="1.2" style="animation-delay:0.9s"/>
+        <circle class="star" cx="360" cy="90" r="1.7" style="animation-delay:0.4s"/>
+        <circle class="star" cx="60" cy="220" r="1.1" style="animation-delay:1.8s"/>
+      </g>
+    </svg>
+  </div>
+
+  <h1 class="visually-hidden">Chirag &amp; Priya's wedding invitation</h1>
+
+  <button id="seal-btn" class="seal-btn" type="button" aria-label="Open the invitation">
+    <svg class="seal-ring" viewBox="0 0 200 200" role="img" aria-hidden="true">
+      <circle cx="100" cy="100" r="92" fill="none" stroke="var(--gold)" stroke-width="2"/>
+      <circle cx="100" cy="100" r="80" fill="none" stroke="var(--gold)" stroke-width="1" opacity="0.6"/>
+      <text x="100" y="95" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-style="italic" font-size="52" fill="var(--stucco)">C</text>
+      <text x="100" y="95" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-style="italic" font-size="52" fill="var(--stucco)" dx="34" dy="18" opacity="0.85">P</text>
+      <text x="100" y="128" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-size="14" fill="var(--gold)" letter-spacing="4">04 · 12 · 2026</text>
+    </svg>
+    <span class="seal-tap-label">— tap the seal to open —</span>
+  </button>
+</section>
+
+<!-- ================= SCENE 2 — COUNTDOWN HERO (full-bleed temple photo) =================
+  Reference notes (web search: "Arulmigu Subramanyaswamy Thirukovil Thiruttani
+  rajagopuram", also known locally as Thiruttani Murugan Temple): the hero
+  art is a commissioned-style painted illustration generated via Bing Image
+  Creator from a prompt describing this temple, in a watercolor style —
+  see README for the exact prompt. It fills the screen edge-to-edge with a
+  slow Ken Burns drift rather than sitting in a bordered frame.
+-->
+<section id="scene-countdown" class="scene" aria-label="Chirag and Priya, 4 December 2026">
+  <div class="countdown-photo-wrap">
+    <img class="countdown-photo"
+         src="assets/temple-hero.webp"
+         srcset="assets/temple-hero-900.webp 900w, assets/temple-hero.webp 1400w"
+         sizes="100vw"
+         width="1400" height="933"
+         fetchpriority="high" loading="eager" decoding="async"
+         alt="Painted illustration of the Thiruttani Murugan Temple at dawn">
+    <div class="countdown-scrim" aria-hidden="true"></div>
+  </div>
+
+  <svg class="falling-petals" viewBox="0 0 300 460" aria-hidden="true">
+    <g class="petal-fall" style="animation-duration:7s; animation-delay:0s"><ellipse cx="40" cy="0" rx="6" ry="9" fill="var(--kumkum)"/></g>
+    <g class="petal-fall" style="animation-duration:9s; animation-delay:1.5s"><ellipse cx="220" cy="0" rx="7" ry="10" fill="#e07a86"/></g>
+    <g class="petal-fall" style="animation-duration:6.5s; animation-delay:3s"><ellipse cx="90" cy="0" rx="5" ry="8" fill="var(--kumkum)"/></g>
+    <g class="petal-fall" style="animation-duration:8s; animation-delay:0.8s"><ellipse cx="260" cy="0" rx="6" ry="9" fill="#e07a86"/></g>
+    <g class="petal-fall" style="animation-duration:7.5s; animation-delay:4s"><ellipse cx="150" cy="0" rx="5" ry="8" fill="var(--kumkum)"/></g>
+    <g class="petal-fall" style="animation-duration:10s; animation-delay:2.2s"><ellipse cx="15" cy="0" rx="6" ry="9" fill="#e07a86"/></g>
+  </svg>
+
+  <div class="countdown-content">
+    <h2 class="hero-names">Chirag <span class="amp-word">&amp;</span> Priya</h2>
+    <p class="countdown-date">04 · 12 · 2026</p>
+
+    <div class="countdown-grid" id="countdown-grid" aria-live="off">
+      <div class="countdown-unit"><span class="num" id="cd-days">–</span><span class="label">Days</span></div>
+      <div class="countdown-unit"><span class="num" id="cd-hours">–</span><span class="label">Hrs</span></div>
+      <div class="countdown-unit"><span class="num" id="cd-mins">–</span><span class="label">Min</span></div>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true">
+      <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    </div>
+    <p class="scroll-cue-label">scroll to begin</p>
+  </div>
+</section>
+
+<!-- ================= SCENE 3 — BLESSING ================= -->
+<section id="scene-blessing" class="scene scene--marbled" aria-label="Wedding announcement">
+  <div class="invite-card">
+    <p class="invite-eyebrow">Join us and celebrate the wedding of</p>
+    <div class="invite-rule"></div>
+    <p class="invite-names">Chirag Thandaga Ravishankar</p>
+    <p class="invite-sub">S/o Smt. Swaroopa Rani &amp; Shri Ravishankar Thandaga Kallappa</p>
+    <p class="invite-eyebrow" style="margin-top:0.8em">&amp;</p>
+    <p class="invite-names" style="margin-top:0.8em">Priyadarshini Gunasekaran</p>
+    <p class="invite-sub">D/o Dr. N.L. Amudhayee &amp; Dr. M. Gunasekaran</p>
+  </div>
+</section>
+
+<!-- ================= SCENE 4 — GARDEN (decorative full-bleed) ================= -->
+<section id="scene-garden" class="scene" aria-label="">
+  <div class="garden-stage">
+    <img class="garden-photo"
+         src="assets/garden.webp"
+         srcset="assets/garden-900.webp 900w, assets/garden.webp 1400w"
+         sizes="100vw"
+         width="1400" height="933"
+         loading="lazy" decoding="async"
+         alt="Painted illustration of a flower garden with roses, poppies, and a peacock">
+  </div>
+</section>
+
+<div id="event-details"></div>
+
+<!-- ================= SCENE 5 — EVENT WREATH CARDS ================= -->
+<section id="scene-events" class="scene scene--marbled" aria-label="Event details">
+  <div class="events-wrap">
+
+    <article class="wreath-card reveal">
+      <div class="wreath-frame-photo">
+        <img src="assets/wreath.webp" alt="" aria-hidden="true" class="wreath-photo-img" loading="lazy" decoding="async" width="560" height="400">
+        <div class="wreath-inner-text">
+          <h2>Muhurtam</h2>
+        </div>
+      </div>
+      <dl class="event-details">
+        <div><dt>Date &amp; time</dt><dd><time datetime="2026-12-04T08:00">December 04, 2026 · 8:00 a.m. onwards</time></dd></div>
+        <div><dt>Venue</dt><dd>Thiruttani Murugan Temple</dd></div>
+      </dl>
+      <div class="event-links">
+        <a class="maps-link" href="https://www.google.com/maps/search/?api=1&amp;query=Thiruttani+Murugan+Temple" target="_blank" rel="noopener">Map</a>
+        <a class="maps-link maps-link--outline" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Chirag+%26+Priya+-+Muhurtam&amp;dates=20261204T023000Z/20261204T043000Z&amp;details=Muhurtam+ceremony&amp;location=Thiruttani+Murugan+Temple" target="_blank" rel="noopener">Add to calendar</a>
+      </div>
+    </article>
+
+    <article class="wreath-card reveal">
+      <div class="wreath-frame-photo">
+        <img src="assets/wreath.webp" alt="" aria-hidden="true" class="wreath-photo-img" loading="lazy" decoding="async" width="560" height="400">
+        <div class="wreath-inner-text">
+          <h2>Reception</h2>
+        </div>
+      </div>
+      <dl class="event-details">
+        <div><dt>Date &amp; time</dt><dd><time datetime="2026-12-06T18:00">December 06, 2026 · 6:00 p.m. onwards</time></dd></div>
+        <div><dt>Venue</dt><dd>Shree Swargha Heritage Wedding Venue</dd></div>
+      </dl>
+      <div class="event-links">
+        <a class="maps-link" href="https://www.google.com/maps/search/?api=1&amp;query=Shree+Swargha+Heritage+Wedding+Venue+Thanisandra+Bengaluru" target="_blank" rel="noopener">Map</a>
+        <a class="maps-link maps-link--outline" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Chirag+%26+Priya+-+Reception&amp;dates=20261206T123000Z/20261206T153000Z&amp;details=Reception&amp;location=Shree+Swargha+Heritage+Wedding+Venue%2C+Thanisandra%2C+Bengaluru" target="_blank" rel="noopener">Add to calendar</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ================= SCENE 6 — RSVP + FOOTER ================= -->
+<section id="scene-rsvp" class="scene" aria-label="RSVP">
+  <div class="diyas" aria-hidden="true">
+    <svg width="100%" height="100%" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+      <g class="diya m-float" style="transform-origin:60px 220px; animation-delay:0.2s"><ellipse cx="60" cy="220" rx="14" ry="5" fill="var(--kumkum)"/><path d="M60,215 Q64,205 60,198 Q56,205 60,215" fill="var(--turmeric)"/></g>
+      <g class="diya m-float" style="transform-origin:180px 250px; animation-delay:1.5s"><ellipse cx="180" cy="250" rx="14" ry="5" fill="var(--kumkum)"/><path d="M180,245 Q184,235 180,228 Q176,235 180,245" fill="var(--turmeric)"/></g>
+      <g class="diya m-float" style="transform-origin:310px 210px; animation-delay:0.8s"><ellipse cx="310" cy="210" rx="14" ry="5" fill="var(--kumkum)"/><path d="M310,205 Q314,195 310,188 Q306,195 310,205" fill="var(--turmeric)"/></g>
+    </svg>
+  </div>
+
+  <div class="rsvp-panel reveal">
+    <a class="action-btn action-btn--whatsapp" id="whatsapp-rsvp"
+       href="https://wa.me/919994727310?text=Hi%20Chirag%20%26%20Priya%2C%20I%27d%20love%20to%20RSVP%20for%20your%20wedding!"
+       target="_blank" rel="noopener">Please RSVP on WhatsApp</a>
+  </div>
+
+  <footer class="site-footer">
+    <svg class="footer-monogram" viewBox="0 0 60 60" aria-hidden="true">
+      <circle cx="30" cy="30" r="27" fill="none" stroke="var(--gold)" stroke-width="1"/>
+      <text x="30" y="38" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-style="italic" font-size="20" fill="var(--gold)">CP</text>
+    </svg>
+    <p>with love, always</p>
+  </footer>
+</section>
+
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>
